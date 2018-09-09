@@ -4,8 +4,8 @@
             [clojure.tools.cli :refer [parse-opts]]))
 
 (def cli-options
-  [["-s" "--use-shadow-cljs" "Use shadow cljs"]
-   ["-s4" "--use-shadow-cljs-04" "Use shadow cljs with nrepl 0.4.x"]])
+  [#_["-s" "--use-shadow-cljs" "Use shadow cljs"]
+   ["-s" "--use-shadow-cljs-04" "Use shadow cljs with nrepl 0.4.x"]])
 
 (def shadow-middleware-04
   ["shadow.cljs.devtools.server.nrepl04/cljs-load-file"
