@@ -1,4 +1,4 @@
-(ns dev-nrepl
+(ns dev-nrepl.core
   (:gen-class)
   (:require [cider-nrepl.main]
             [clojure.tools.cli :refer [parse-opts]]))
